@@ -9,4 +9,5 @@
 - **Raissa Eduarda Kreusch**: aluno do tecnico de agropecuária, responsável pela pesquisa e por desenvolvimento de mapa relacionado a migração das baleias.
 - **Graziele Leila Grein Ramos**: aluno do tecnico de agropecuária, responsável pela criação do cartaz do painel, grande parte do desenvolvimento da parte física do projeto.
 - **Ana Beatriz Schvambach**: aluno do tecnico de agropecuária, responsável pela criação do cartaz do painel, auxilia com recursos físicos para o projeto.
-- **Professor Luiz Antônio da Rocha Andrade**:  j   
+- **Professor Luiz Antônio da Rocha Andrade**: O nosso orientador do projeto.
+- **Fernanda Guimarães de Carvalho**: A nossa colaboradora do projeto. 
