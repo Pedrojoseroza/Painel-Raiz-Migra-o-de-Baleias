@@ -8,4 +8,5 @@
 - **Juliana Vitória Krause Tomio**: aluno do tecnico de agropecuária, responsável grande parte pela pesquisa e pelo design da página, além de coordenar outras partes do trabalho.
 - **Raissa Eduarda Kreusch**: aluno do tecnico de agropecuária, responsável pela pesquisa e por desenvolvimento de mapa relacionado a migração das baleias.
 - **Graziele Leila Grein Ramos**: aluno do tecnico de agropecuária, responsável pela criação do cartaz do painel, grande parte do desenvolvimento da parte física do projeto.
-- **Ana Beatriz Schvambach**: aluno do tecnico de agropecuária, responsável pela criação do cartaz do painel, auxilia com recursos físicos para o projeto. 
+- **Ana Beatriz Schvambach**: aluno do tecnico de agropecuária, responsável pela criação do cartaz do painel, auxilia com recursos físicos para o projeto.
+- **Professor Luiz Antônio da Rocha Andrade**:  j   
