@@ -1,0 +1,75 @@
+:root {
+  --main-bg-color: brown;
+  font-size: clamp(0.9375rem, 0.9119rem + 0.1136vw, 1rem);
+  font-family: 'lato' 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body {
+    padding: 3vw;
+}
+p {
+    font-size: 1vw;
+}
+/* ===================================
+                Header
+=======================================*/
+header {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 1.5vw 0;
+}
+header h1 {
+    font-size: 4vw;
+}
+header h1 span {
+    font-size: 6vw;
+    text-align: center;
+    margin: 0 10px 0 0;
+}
+header img {
+    width: 100%;
+}
+/* ===================================
+                Introducao
+=======================================*/
+.introducao {
+    margin: 0 0 3vw 0;
+}
+.introducao > p {
+    margin: 0 50% 0 0;
+}
+.introducao p.nome_cientifico {
+    margin: 0 50% 0 0;
+    padding: 20px;
+    background-color: rgb(137, 137, 219);
+    border-radius: 20px;
+}
+.introducao div {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+.introducao div p {
+    margin: 0 0 0 30%;
+    background-color: rgb(72, 72, 119);
+    border-radius: 20px;
+    padding: 20px 40px;
+
+}
+
+/* ===================================
+                Baleia Franca
+=======================================*/
+.franca {
+    justify-content: center;
+}
+.franca h2 {
+    text-align: center;
+    font-size: 2vw;
+    padding: 10px 2vw;
+    background-color: aqua;
+    margin: 0 30% 20px 30%;
+}
