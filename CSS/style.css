@@ -72,12 +72,13 @@ header img {
     text-align: center;
     font-size: 2vw;
     padding: 10px 2vw;
-    background-color:#54b5f0;
+    background-color:#7bb8e3;
     margin: 0 30% 20px 30%;
 }
 .franca > div {
-    background-color: #54b5f0;
+    background-color:#7bb8e3;
     display: flex;
+    padding: 2vw 2vw 4vw 2vw;
 }
 .franca div div {
     width: 50%;
