@@ -52,6 +52,9 @@ header img {
     justify-content: space-between;
     margin: 30px 0;
 }
+.introducao div img {
+    width: 40vw;
+}
 .introducao div p {
     margin: 0 5vw 0 5vw;
     background-color:#3968a6;
@@ -74,6 +77,7 @@ header img {
     padding: 10px 2vw;
     background-color:#7bb8e3;
     margin: 0 30% 20px 30%;
+    border-radius: 20px ;
 }
 .franca > div {
     background-color:#7bb8e3;
@@ -82,4 +86,19 @@ header img {
 }
 .franca div div {
     width: 50%;
+}
+.franca div div p {
+    margin: 20px;
+}
+.franca div div p.caracterstica_marcante {
+    background-color: #3968a6;
+    border-radius: 20px;
+    padding: 20px;
+}
+.franca div div p {
+    text-align: center;
+}
+.franca div div p img {
+    width: 80%;
+
 }
