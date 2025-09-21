@@ -11,7 +11,7 @@ body {
     padding: 4vw;
 }
 p {
-    font-size: 1.5vw;
+    font-size: 1.6vw;
 }
 /* ===================================
                 Header
@@ -23,6 +23,7 @@ header {
 }
 header h1 {
     font-size: 4vw;
+    margin: 0 0 0 10vw;
 }
 header h1 span {
     font-size: 6vw;
@@ -30,7 +31,8 @@ header h1 span {
     margin: 0 10px 0 0;
 }
 header img {
-   width: 10vw;
+   width: 20vw;
+    height: 15vw;
 }
 /* ===================================
                 Introducao
@@ -73,7 +75,7 @@ header img {
 }
 .franca h2 {
     text-align: center;
-    font-size: 2vw;
+    font-size: 3vw;
     padding: 10px 2vw;
     background-color:#7bb8e3;
     margin: 0 30% 20px 30%;
@@ -83,9 +85,11 @@ header img {
     background-color:#7bb8e3;
     display: flex;
     padding: 2vw 2vw 4vw 2vw;
+    justify-content: center;
 }
 .franca div div {
     width: 50%;
+    
 }
 .franca div div p {
     margin: 20px;
@@ -98,7 +102,36 @@ header img {
 .franca div div p {
     text-align: center;
 }
-.franca div div p img {
+.franca div div  img {
     width: 80%;
+}
+/* ===================================
+                Baleia Franca
+=======================================*/
+.migracao_jubarte h2 {
+     font-size: 4vw;
+    margin: 3vw 0 0 10vw;
+    text-align: center;
+    background: url(../src/images/fundo_img_migracao_jubarte.png)
+    ;
+    background-position: center;
+    background-size: 45vw;
+    background-repeat: no-repeat;
+}
+.migracao_jubarte h2 span {
+     font-size: 6vw;
+    text-align: center;
+    margin: 0 10px 0 0;
+}
+.migracao_jubarte div {
+    display: flex;
+    margin: 20px 0;
 
+}
+.migracao_jubarte div p img {
+    width: 70vw;
+}
+.migracao_jubarte div p {
+    font-size: 2vw;
+    margin: 0 20px;
 }
