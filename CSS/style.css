@@ -11,7 +11,11 @@ body {
     padding: 4vw;
 }
 p {
-    font-size: 1.6vw;
+    font-size: 1.8vw;
+}
+@font-face {
+    font-family: "Allura";
+    src: url(../src/Fontes/Allura_Script.ttf);
 }
 /* ===================================
                 Header
@@ -24,6 +28,7 @@ header {
 header h1 {
     font-size: 4vw;
     margin: 0 0 0 10vw;
+    font-family: "Allura";
 }
 header h1 span {
     font-size: 6vw;
@@ -55,7 +60,8 @@ header img {
     margin: 30px 0;
 }
 .introducao div img {
-    width: 40vw;
+    width: 100vw;
+    margin: 0 0 0 7vw;
 }
 .introducao div p {
     margin: 0 5vw 0 5vw;
@@ -63,9 +69,6 @@ header img {
     border-radius: 20px;
     padding: 20px 40px;
 
-}
-.introducao div img {
-    margin: 0 0 0 7vw;
 }
 /* ===================================
                 Baleia Franca
@@ -79,7 +82,8 @@ header img {
     padding: 10px 2vw;
     background-color:#7bb8e3;
     margin: 0 30% 20px 30%;
-    border-radius: 20px ;
+    border-radius: 20px;
+    font-family: "Allura";
 }
 .franca > div {
     background-color:#7bb8e3;
@@ -88,11 +92,17 @@ header img {
     justify-content: center;
 }
 .franca div div {
-    width: 50%;
-    
+    width: 50%;   
+}
+.franca div div:first-child {
+    align-items: start;
+}
+.franca div div {
+    display: grid;
 }
 .franca div div p {
     margin: 20px;
+    font-size: 2vw;
 }
 .franca div div p.caracterstica_marcante {
     background-color: #3968a6;
@@ -106,14 +116,14 @@ header img {
     width: 80%;
 }
 /* ===================================
-                Baleia Franca
+             Migração Jubarte
 =======================================*/
 .migracao_jubarte h2 {
      font-size: 4vw;
     margin: 3vw 0 0 10vw;
     text-align: center;
-    background: url(../src/images/fundo_img_migracao_jubarte.png)
-    ;
+    font-family: "Allura";
+    background: url(../src/images/fundo_img_migracao_jubarte.png);
     background-position: center;
     background-size: 45vw;
     background-repeat: no-repeat;
@@ -126,12 +136,108 @@ header img {
 .migracao_jubarte div {
     display: flex;
     margin: 20px 0;
-
+    align-items: flex-start;
 }
-.migracao_jubarte div p img {
+.migracao_jubarte > div p img {
     width: 70vw;
+}
+.migracao_jubarte p.detalhes {
+    margin: 0 0 30px 0;
+
 }
 .migracao_jubarte div p {
     font-size: 2vw;
     margin: 0 20px;
+    line-height: 2;
+}
+
+.migracao_jubarte .rotas_migratorias_jubarte > p {
+    font-size: 2vw;
+    
+}
+.migracao_jubarte .rotas_migratorias_jubarte p img {
+    width: 150vw;
+}
+/* ===================================
+             Migração Jubarte
+=======================================*/
+.migracao_franca h2 {
+    font-size: 4vw;
+    background: url(../src/images/fundo_img_migracao_jubarte.png);
+    font-family: "Allura";
+    background-repeat: no-repeat;
+    background-size: 50vw;
+    margin: 3vw;
+}
+.migracao_franca > p {
+    margin: 0 0 2vw 0;
+    text-align: center;
+    padding: 0 3vw;
+    font-size: 2vw;
+}
+.migracao_franca div {
+    display: flex;
+    
+}
+.migracao_franca div p {
+    line-height: 1.8;
+    font-size: 2vw;
+}
+.migracao_franca div img {
+  width: 200vw;
+  height: 30vw;
+  margin: 0 0 0 2vw;
+  border-radius: 25px;
+}
+.migracao_franca p.ancora_para_reproducao {
+    text-align: start;
+    margin-top: 20px;
+    font-size: 2vw;
+}
+/* ===================================
+             reproducao_jubarte
+=======================================*/
+.reproducao_jubarte {
+    margin: 3vw 0;
+}
+.reproducao_jubarte > div {
+    display: flex;
+    justify-content: space-evenly;
+}
+.reproducao_jubarte div .imagem {
+    width: 30%;
+}
+
+.reproducao_jubarte h2 {
+    font-size: 6vw;
+}
+.reproducao_jubarte h3 {
+    text-align: center;
+    font-size: 4vw;
+    font-family: "Allura";
+    margin: 20px 0;
+}
+.reproducao_jubarte div .imagem img {
+    border-radius: 25px;
+    width: 25vw;
+    height: 18vw;
+}
+.reproducao_jubarte div .imagem p {
+    margin: 20px 0;
+    color: #004aad;
+    text-align: center;
+}
+.reproducao_jubarte div.texto {
+    margin: 2vw 0;
+}
+.reproducao_jubarte div.texto > p {
+    width: 50%;
+    margin: 0 20px;
+}
+.reproducao_jubarte div div {
+    width: 50%;
+}
+.reproducao_jubarte div.texto div img {
+    width: 15vw;
+    margin: 0 0 0 28vw;
 }
