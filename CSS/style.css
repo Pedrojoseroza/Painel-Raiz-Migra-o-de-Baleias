@@ -198,7 +198,7 @@ header img {
              reproducao_jubarte
 =======================================*/
 .reproducao_jubarte {
-    margin: 3vw 0;
+    margin: 5vw 0;
 }
 .reproducao_jubarte > div {
     display: flex;
@@ -233,9 +233,17 @@ header img {
 .reproducao_jubarte div.texto > p {
     width: 50%;
     margin: 0 20px;
+    font-size: 2vw;
+    padding: 0 20px;
+    text-align: center;
 }
 .reproducao_jubarte div div {
     width: 50%;
+}
+.reproducao_jubarte div div p {
+    text-align: center;
+    font-size: 2vw;
+    padding: 0 20px;
 }
 .reproducao_jubarte div.texto div img {
     width: 15vw;
@@ -244,3 +252,57 @@ header img {
 /* ===================================
              reprodução baleia franca
 =======================================*/
+.reproducao_franca {
+    display: flex;
+    margin: 5vw 0;
+}
+.reproducao_franca div div {
+    display: flex;
+}
+.reproducao_franca div div h2  {
+     text-align: center;
+    font-size: 4vw;
+    font-family: "Allura";
+   margin: 4vw 0 0  0;
+   align-items: center;
+}
+.reproducao_franca div p{
+    text-align: center;
+    font-size: 2vw;
+    padding: 20px 7vw;
+}
+.reproducao_franca div.filhotes p{
+    text-align: center;
+    font-size: 2vw;
+    padding: 20px 0;
+}
+.reproducao_franca div.filhotes img {
+    margin: 4vw 0 0 0;
+    border-radius: 25px;
+    width: 150vw;
+}
+/* ===================================
+             NASCIMENTO DA BALEIA JUBARTE
+=======================================*/
+.nascimento_jubarte {
+    display: flex;
+    justify-content: space-evenly;
+}
+.nascimento_jubarte div {
+    width: 50% ;
+}
+.nascimento_jubarte h2 {
+    font-size: 6vw;
+}
+.nascimento_jubarte p {
+    text-align: center;
+    margin: 30px 0;
+}
+.nascimento_jubarte ol {
+    list-style-type: decimal;
+}
+.nascimento_jubarte ol li {
+    font-size: 2vw;
+    margin: 40px 0;
+    text-align: center;
+}
