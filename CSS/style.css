@@ -11,7 +11,7 @@ html {
     padding:  4vw;
 }
 p {
-    font-size: 1.3vw;
+    font-size: 1.5vw;
 }
 @font-face {
     font-family: "Allura";
@@ -68,8 +68,12 @@ header img {
     width: 100vw;
     margin: 0 0 0 8vw;
 }
-.introducao div p {
-    margin: 0 5vw 0 5vw;
+.introducao div div {
+    display: flex;
+    align-items: center;
+}
+.introducao div div p {
+    margin: 0 5vw;
     background-color:#3968a6;
     border-radius: 20px;
     padding: 20px 40px;
@@ -107,7 +111,6 @@ header img {
 }
 .franca div div p {
     margin: 20px;
-    font-size: 1.3vw;
 }
 .franca div div p.caracterstica_marcante {
     background-color: #3968a6;
@@ -152,15 +155,10 @@ header img {
 
 }
 .migracao_jubarte div p {
-    font-size: 1.3vw;
     margin: 0 20px;
     line-height: 2;
 }
 
-.migracao_jubarte .rotas_migratorias_jubarte > p {
-    font-size: 1.3vw;
-    
-}
 .migracao_jubarte .rotas_migratorias_jubarte p img {
     width: 150vw;
 }
@@ -181,7 +179,6 @@ header img {
     margin: 0 0 2vw 0;
     text-align: center;
     padding: 0 3vw;
-    font-size: 1.3vw;
 }
 .migracao_franca div {
     display: flex;
@@ -191,7 +188,6 @@ header img {
 .migracao_franca div p {
     line-height: 2;
     font-size: 1.4vw;
-
 }
 .migracao_franca div img {
   width: 200vw;
@@ -202,8 +198,6 @@ header img {
 .migracao_franca p.ancora_para_reproducao {
     text-align: start;
     margin: 40px 0;
-    font-size: 1.3vw;
-
 }
 
 /* ===================================
@@ -247,7 +241,6 @@ header img {
 .reproducao_jubarte div.texto > p {
     width: 50%;
     margin: 0 20px;
-    font-size: 1.3vw;
     padding: 0 20px;
     text-align: center;
 }
@@ -256,7 +249,6 @@ header img {
 }
 .reproducao_jubarte div div p {
     text-align: center;
-    font-size: 1.3vw;
     padding: 0 20px;
 }
 .reproducao_jubarte div.texto div img {
@@ -282,12 +274,10 @@ header img {
 }
 .reproducao_franca div p{
     text-align: center;
-    font-size: 1.3vw;
     padding: 20px 7vw;
 }
 .reproducao_franca div.filhotes p{
     text-align: center;
-    font-size: 1.3vw;
     padding: 20px 0;
 }
 .reproducao_franca div.filhotes img {
@@ -317,9 +307,9 @@ header img {
     list-style-type: decimal;
 }
 .nascimento_jubarte ol li {
-    font-size: 1.4vw;
     margin: 40px 0;
     text-align: center;
+    font-size: 1.5vw;
 }
 
 /* ===================================
@@ -448,10 +438,7 @@ header img {
     width: 70%;
 }
 .alimentacao p.forma_de_alimentacao {
-     display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-.alimentacao p.forma_de_alimentação span {
-    background-color: #004aad;
+    background-color: #3968a6;
+      width: fit-content;
+
 }
