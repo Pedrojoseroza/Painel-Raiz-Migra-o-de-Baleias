@@ -11,11 +11,11 @@ html {
     padding:  4vw;
 }
 p {
-    font-size: 1.5vw;
+    font-size: 1.7vw;
 }
 @font-face {
     font-family: "Allura";
-    src: url(../src/Fontes/Allura_Script.ttf);
+    src: url(../src/Fontes/Allura-Regular.ttf);
 }
 @font-face {
     font-family: "Cheque";
@@ -33,6 +33,7 @@ header h1 {
     font-size: 4vw;
     margin: 0 0 0 10vw;
     font-family: "Allura";
+    text-align: center;
 }
 header h1 span {
     font-size: 6vw;
@@ -186,8 +187,7 @@ header img {
     
 }
 .migracao_franca div p {
-    line-height: 2;
-    font-size: 1.4vw;
+    line-height: 2.5;
 }
 .migracao_franca div img {
   width: 200vw;
@@ -440,5 +440,120 @@ header img {
 .alimentacao p.forma_de_alimentacao {
     background-color: #3968a6;
       width: fit-content;
+}
+.alimentacao h3 {
+     font-size: 4vw;
+     font-family: "Allura";
+     margin: 10px 20px 10px 40px;
+}
+.alimentacao  > div {
+    display: flex;
+    justify-content: space-between;
+}
+.alimentacao div div {
+    width: 50vw;
+}
+.alimentacao div div > p {
+    padding: 0 100px;
+}
+.alimentacao div div div {
+    display: flex;
+}
+.alimentacao div div div img {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 100%;
+}
+.alimentacao div div p.atividade_diaria {
+    background-image: url(../src/images/fundo_img_migracao_jubarte.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* ===================================
+            Morte das Baleias
+=======================================*/
+.morte_baleia {
+    margin: 1vw 0 3vw 0;
+}
+.morte_baleia h2 {
+    font-size: 4vw;
+    margin: 0 0 0 10vw;
+    text-align: center;
+    font-family: "Allura";
+    background-image: url(../src/images/fundo_img_migracao_jubarte.png);
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 40px 0 6vw 0;
+}
+.morte_baleia h2 span {
+     font-size: 6vw;
+    margin: 0 10px 0 0;
+    font-family: "Cheque";
+}
+.morte_baleia > div {
+    display: flex;
+    justify-content: space-between;
+}
+.morte_baleia div div {
+    width: 50%;
+    padding: 20px 40px;
+}
+.morte_baleia div:first-child p{
+    text-align: center;
+    margin: 2vw 0;
+    padding: 30px 15px;
+}
+.morte_baleia div:last-child  p {
+    text-align: center;
+}
+.morte_baleia div div p img {
+    height: 16vw;
+    border-radius: 20px;
+}
+.morte_baleia div:first-child p:first-child {
+    background-color: #7bb8e3;
+}
+.morte_baleia div:first-child p:last-child {
+    background-color: #2ba3ff;
+}
+.morte_baleia div:last-child p:first-child {
+    background-color: #4cb1f6;
+    margin: 10px 20px;
+}
+.morte_baleia div:last-child p:last-child {
+    background-color: #32acff;
+    margin: 2vw 20px;    
+}
+/* ===================================
+            Turismo
+=======================================*/
+.turismo h2 {
+    font-size: 6vw;
+    font-family: "Cheque";
+    text-align: center;
+    background-color: #89BBD9;
+    margin: 0 20vw 3vw 20vw;
+}
+.turismo p {
+    text-align: center;
+    margin: 20px 20px;
+}
+.turismo > div {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 8vw;
+}
+.turismo h3 {
+         font-size: 4vw;
+     font-family: "Allura";
+     margin: 10px 20px 10px 40px;
+}
+.turismo div.local_avistamento {
+    margin: 0 0;
+}
 
+.turismo div.local_avistamento img {
+    width: 25vw;
 }
