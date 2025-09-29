@@ -173,7 +173,7 @@ header img {
     background: url(../src/images/fundo_img_migracao_jubarte.png);
     font-family: "Allura";
     background-repeat: no-repeat;
-    background-size: 50vw;
+    background-size: 40vw;
     margin: 3vw;
 }
 .migracao_franca > p {
@@ -496,19 +496,24 @@ header img {
     display: flex;
     justify-content: space-between;
 }
-.morte_baleia div div {
+.morte_baleia div  div {
     width: 50%;
     padding: 20px 40px;
 }
 .morte_baleia div:first-child p{
     text-align: center;
-    margin: 2vw 0;
+    margin: 2vw 0 0 0;
     padding: 30px 15px;
 }
-.morte_baleia div:last-child  p {
+.morte_baleia div:first-child div {
+    display: flex;
+    justify-content: right;
+    
+}
+.morte_baleia div:last-child p {
     text-align: center;
 }
-.morte_baleia div div p img {
+.morte_baleia div:last-child p img {
     height: 16vw;
     border-radius: 20px;
 }
@@ -536,9 +541,9 @@ header img {
     background-color: #89BBD9;
     margin: 0 20vw 3vw 20vw;
 }
-.turismo p {
+.turismo > div p {
     text-align: center;
-    margin: 20px 20px;
+    margin: 2vw 5vw;
 }
 .turismo > div {
     display: flex;
@@ -551,9 +556,51 @@ header img {
      margin: 10px 20px 10px 40px;
 }
 .turismo div.local_avistamento {
-    margin: 0 0;
+    margin: 20px;
+}
+.turismo div.local_avistamento p {
+    text-align: center;
+}
+.turismo div.local_avistamento ul li p {
+    margin: 3.5vw 20px;
+}
+.turismo div.local_avistamento div p img {
+    width: 25vw;
+    height: 30vw;
+    border-radius: 25px;
 }
 
-.turismo div.local_avistamento img {
-    width: 25vw;
+.turismo div.local_avistamento div p:first-of-type {
+    background-image: url(../src/images/Círculo_de_fundo_de_título.png);
+    background-position: center;
+    background-size: 30vw;
+    background-repeat: no-repeat;
+    padding: 6vw;
+}
+.turismo h3.datas {
+    text-align: center;
+}
+.turismo p {
+    text-align: justify;
+    margin: 3vw 5vw;
+}
+.turismo p a {
+    color: #2ba3ff;
+    text-decoration: underline;
+}
+/* ===================================
+            Sobre a economia
+=======================================*/
+.economia h2 {
+     font-size: 4vw;
+     font-family: "Allura";
+     margin: 10px 20px 10px 40px;
+     background-color: #a8daf7;
+    display: inline-block;
+    padding: 0 4vw;
+    border-radius: 100%;   
+}
+.economia p {
+     margin: 3vw 5vw;
+     text-align: center;
 }
