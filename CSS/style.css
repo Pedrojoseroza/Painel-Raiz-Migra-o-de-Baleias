@@ -6,8 +6,8 @@ a{
     text-decoration: none;
     color: black;
 }
-html {
-    padding:  4vw;
+main {
+    padding: 4vw;
 }
 @font-face {
     font-family: "Allura";
@@ -28,36 +28,29 @@ p {
 /* ================================
                 Menu
 =======================================*/
-
-header nav {
-    padding: 1vw 0;   
-}
-header nav ul {
-    position: relative;
-
-}
-header nav button {
-    margin: auto;
-    display: block;
-}
-header nav button span {
- font-size: 3vw;
- padding: 1vw 0;   
-}
-header nav {
-    background-color: rgba(159, 159, 240, 0.973);
-    width: 10%;
-    border-radius: 25px;
-}
-
-header nav ul li {
-    text-align: center;
-    font-size: 1;
+header aside {
+   height: 200vh;
+   width: 100vw;
+   background-color: #00000085; 
     position: absolute;
-    z-index: 2;
 }
-header nav ul li a {
-    color: white;
+header aside nav {
+    width: 20%;
+    background-color: #7bb8e3;
+    height: 100vh;
+}
+header aside nav ul li {
+    padding: 10px 0;
+    margin: 0 10px;
+}
+header aside button {
+    display: block;
+    margin: auto;
+
+}
+header aside button span {
+    font-size: 5vw;
+    margin: auto;    
 }
 
 
