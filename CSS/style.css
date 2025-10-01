@@ -1,7 +1,6 @@
 :root {
-  --main-bg-color: brown;
   font-size: clamp(0.9375rem, 0.9119rem + 0.1136vw, 1rem);
-  font-family: 'lato' 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 a{
     text-decoration: none;
@@ -9,9 +8,6 @@ a{
 }
 html {
     padding:  4vw;
-}
-p {
-    font-size: 1.7vw;
 }
 @font-face {
     font-family: "Allura";
@@ -21,27 +17,73 @@ p {
     font-family: "Cheque";
     src: url(../src/Fontes/Cheque-Regular/Cheque-Regular.otf);
 }
-/* ===================================
-                Header
+@font-face {
+    font-family: "Mali";
+    src: url(../src/Fontes/mali/Mali-Regular.ttf);
+}
+p {
+    font-size: 1.5vw;
+    font-family: "Mali";
+}
+/* ================================
+                Menu
 =======================================*/
-header {
+
+header nav {
+    padding: 1vw 0;   
+}
+header nav ul {
+    position: relative;
+
+}
+header nav button {
+    margin: auto;
+    display: block;
+}
+header nav button span {
+ font-size: 3vw;
+ padding: 1vw 0;   
+}
+header nav {
+    background-color: rgba(159, 159, 240, 0.973);
+    width: 10%;
+    border-radius: 25px;
+}
+
+header nav ul li {
+    text-align: center;
+    font-size: 1;
+    position: absolute;
+    z-index: 2;
+}
+header nav ul li a {
+    color: white;
+}
+
+
+
+/* ================================
+                Título
+=======================================*/
+
+.titulo {
     display: flex;
     justify-content: center;
     margin: 0 0 1.5vw 0;
 }
-header h1 {
+.titulo h1 {
     font-size: 4vw;
     margin: 0 0 0 10vw;
     font-family: "Allura";
     text-align: center;
 }
-header h1 span {
+.titulo h1 span {
     font-size: 6vw;
     text-align: center;
     margin: 0 10px 0 0;
     font-family: "Cheque";
 }
-header img {
+.titulo img {
    width: 20vw;
     height: 15vw;
 }
