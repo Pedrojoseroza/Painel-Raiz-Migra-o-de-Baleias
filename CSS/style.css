@@ -1,6 +1,5 @@
 :root {
   font-size: clamp(0.9375rem, 0.9119rem + 0.1136vw, 1rem);
-
 }
 a{
     text-decoration: none;
@@ -26,31 +25,44 @@ p {
     font-family: "Mali";
 }
 /* ================================
-                Menu
+                Menu Recolhível
 =======================================*/
-header aside {
-   height: 200vh;
-   width: 100vw;
-   background-color: #00000085; 
-    position: absolute;
+header div.btn {
+    align-items: center;
+    margin:  0 2vw;
+    display: flex;
+    justify-content: center;
 }
-header aside nav {
+ header #background {
+     position: absolute;
+    display: none;
+    min-height: 2320vh;
+    min-width: 98.9vw;
+    background-color: #00000085; 
+    z-index: 1;
+}
+header aside {
+    display: none;
     width: 20%;
-    background-color: #7bb8e3;
     height: 100vh;
+    position: absolute;
+    z-index: 2;
+}
+header aside nav ul {
+    border-radius: 25px;
+    background-color: #7bb8e3;    
 }
 header aside nav ul li {
-    padding: 10px 0;
-    margin: 0 10px;
+    padding: 20px 50px;
 }
-header aside button {
-    display: block;
-    margin: auto;
-
+header aside nav ul li:hover a {
+    color: white;
 }
-header aside button span {
+header button {
+    background-color: red;
+}
+header button span {
     font-size: 5vw;
-    margin: auto;    
 }
 
 
@@ -59,24 +71,20 @@ header aside button span {
                 Título
 =======================================*/
 
-.titulo {
-    display: flex;
-    justify-content: center;
-    margin: 0 0 1.5vw 0;
-}
-.titulo h1 {
+
+header h1 {
     font-size: 4vw;
     margin: 0 0 0 10vw;
     font-family: "Allura";
     text-align: center;
 }
-.titulo h1 span {
+header h1 span {
     font-size: 6vw;
     text-align: center;
     margin: 0 10px 0 0;
     font-family: "Cheque";
 }
-.titulo img {
+header img {
    width: 20vw;
     height: 15vw;
 }
