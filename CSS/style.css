@@ -70,8 +70,6 @@ header button span {
 /* ================================
                 Título
 =======================================*/
-
-
 header h1 {
     font-size: 4vw;
     margin: 0 0 0 10vw;
@@ -110,7 +108,6 @@ header img {
 }
 .introducao div img {
     width: 100vw;
-    margin: 0 0 0 8vw;
 }
 .introducao div div {
     display: flex;
@@ -195,12 +192,14 @@ header img {
     width: 70vw;
 }
 .migracao_jubarte p.detalhes {
-    margin: 0 0 30px 0;
+    margin:30px 0;
 
 }
+
 .migracao_jubarte div p {
     margin: 0 20px;
-    line-height: 2;
+    line-height: 3;
+    text-align: center;
 }
 
 .migracao_jubarte .rotas_migratorias_jubarte p img {
@@ -353,6 +352,7 @@ header img {
     margin: 40px 0;
     text-align: center;
     font-size: 1.5vw;
+    font-family: "Mali";
 }
 
 /* ===================================
@@ -417,10 +417,10 @@ header img {
 }
 .desmame div p {
     margin: 20px;
-    padding: 0 5vw;
+    padding: 0 3vw;
 }
 .desmame div  p img {
-    width: 150vw;
+    width: 250vw;
     border-radius: 20px;
 }
 /* ===================================
@@ -471,11 +471,14 @@ header img {
 .alimentacao h2 {
  font-size: 6vw;
  font-family: "Cheque";
- 
 }
-.alimentacao p {
+.alimentacao h2 img {
+    padding: 0 0 50px 20px;
+    width: 8%;
+}
+.alimentacao > p {
  text-align: center;
- margin: 20px 40px;   
+ margin: 30px 40px 40px 6vw;   
 }
 .alimentacao p img {
     width: 70%;
@@ -511,6 +514,9 @@ header img {
     background-image: url(../src/images/fundo_img_migracao_jubarte.png);
     background-repeat: no-repeat;
     background-position: center;
+}
+.alimentacao div div div ul li p {
+    margin: 20px 35px;
 }
 /* ===================================
             Morte das Baleias
