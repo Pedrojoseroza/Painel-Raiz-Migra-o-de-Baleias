@@ -54,15 +54,19 @@ header aside nav ul {
 }
 header aside nav ul li {
     padding: 20px 50px;
+    font-size: 1.2vw;
 }
 header aside nav ul li:hover a {
+   transition: 0.5s;
     color: white;
 }
 header button {
-    background-color: red;
+    padding: 20px;
+    background-color: #7bb8e3;
+    border-radius: 100%;
 }
 header button span {
-    font-size: 5vw;
+    font-size: 3.5vw;
 }
 
 
@@ -72,7 +76,7 @@ header button span {
 =======================================*/
 header h1 {
     font-size: 4vw;
-    margin: 0 0 0 10vw;
+    margin: 0 0 0 12vw;
     font-family: "Allura";
     text-align: center;
 }
@@ -83,7 +87,7 @@ header h1 span {
     font-family: "Cheque";
 }
 header img {
-   width: 20vw;
+   width: 30vw;
     height: 15vw;
 }
 /* ===================================
@@ -107,7 +111,8 @@ header img {
     margin: 30px 0;
 }
 .introducao div img {
-    width: 100vw;
+    width: 300vw;
+    height: 50vh;
 }
 .introducao div div {
     display: flex;
@@ -189,13 +194,17 @@ header img {
     align-items: flex-start;
 }
 .migracao_jubarte > div p img {
-    width: 70vw;
+    width: 85vw;
 }
 .migracao_jubarte p.detalhes {
     margin:30px 0;
 
 }
-
+.migracao_jubarte .rotas_migratorias_jubarte p {
+    margin: 0 20px;
+    line-height: 2.5;
+    text-align: center;
+}
 .migracao_jubarte div p {
     margin: 0 20px;
     line-height: 3;
@@ -203,9 +212,8 @@ header img {
 }
 
 .migracao_jubarte .rotas_migratorias_jubarte p img {
-    width: 150vw;
+    width: 95vw;
 }
-
 /* ===================================
              Migração Franca
 =======================================*/
@@ -468,6 +476,15 @@ header img {
 /* ===================================
             Alimentação
 =======================================*/
+.alimentacao div.titulo {
+    justify-content: left;
+}
+.alimentacao div.titulo h2 {
+    margin: 2vw 0 0 3vw;
+}
+.alimentacao div.titulo img {
+    position: absolute;
+}
 .alimentacao h2 {
  font-size: 6vw;
  font-family: "Cheque";

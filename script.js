@@ -13,7 +13,7 @@ fundo.addEventListener("click", function() {
     fundo.style.display = "none";
     barraLateral.style.display = "none";
 })
-for (let i = 0; i <= 12; i++) {
+for (let i = 0; i <= 13; i++) {
     item[i].addEventListener("click", function(){
         fundo.style.display = "none";
         barraLateral.style.display = "none";
