@@ -38,11 +38,11 @@ header div.btn {
     display: flex;
     justify-content: center;
 }
- header #background {
-     position: absolute;
+header #background {
+    position: absolute;
     display: none;
     min-height: 2320vh;
-    min-width: 98.9vw;
+    min-width: 100vw;
     background-color: #00000085; 
     z-index: 1;
 }
