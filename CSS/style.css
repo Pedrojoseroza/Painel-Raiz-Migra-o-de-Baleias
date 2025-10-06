@@ -234,7 +234,7 @@ header img {
 .migracao_franca > p {
     margin: 0 0 2vw 0;
     text-align: center;
-    padding: 0 3vw;
+    padding: 0 3vw 0 5vw;
 }
 .migracao_franca div {
     display: flex;
@@ -633,7 +633,7 @@ header img {
     text-align: center;
 }
 .turismo div.local_avistamento ul li p {
-    margin: 3.5vw 20px;
+    margin: 3.5vw 20px 3.5vw 40px;
 }
 .turismo div.local_avistamento div p img {
     width: 25vw;
@@ -653,7 +653,7 @@ header img {
 }
 .turismo p {
     text-align: justify;
-    margin: 3vw 5vw;
+    margin: 3vw 8vw;
 }
 .turismo p a {
     color: #2ba3ff;
@@ -672,6 +672,27 @@ header img {
     border-radius: 100%;   
 }
 .economia p {
-     margin: 3vw 5vw;
+     margin: 3vw 8vw;
      text-align: center;
+}
+/* ===================================
+            Footer
+=======================================*/
+footer {
+      padding: 2vw 9vw;
+}
+footer h2 {
+    font-size: 3vw;
+    margin: 20px 0;
+}
+footer ul li {
+    margin: 20px 25px;
+}
+footer ul li a h3 {
+    color: #32acff;
+    font-size: 1.8vw;
+}
+footer ul li a h3:hover {
+    text-decoration: underline;
+    
 }
